@@ -1,0 +1,6 @@
+1. Описать класс Engine
+2. строку class Lorry extends Car, Moveable, Stopable исправить на
+class Lorry extends Car implements Moveable, Stopable так как Moveable и Stopable это интерфейсы;
+4. методы start() и open() выделить в отдельные интерфейсы;
+3.  реализовать метод abstract void open();
+
